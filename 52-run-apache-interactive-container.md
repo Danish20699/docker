@@ -157,3 +157,24 @@ docker rm apache-test
 6. **`docker rm -f`** is a shortcut to force-stop and remove a container in one command.
 7. The default Apache page is located at **`/usr/local/apache2/htdocs/index.html`** inside the container.
 
+---
+
+## 🧾 Commands Used in This Lab
+
+| # | Command | Description |
+|---|---------|-------------|
+| 1 | `docker pull httpd` | Download the Apache image from Docker Hub |
+| 2 | `docker images` | List all locally available images to verify httpd was pulled |
+| 3 | `docker run -it --name apache-test -p 8080:80 httpd` | Run Apache in interactive mode with port mapping (see live logs) |
+| 4 | `docker run -d --name apache-test -p 8080:80 httpd` | Run Apache in detached (background) mode with port mapping |
+| 5 | `docker container ls` | Check if the container is running |
+| 6 | `docker container ls -a` | Check all containers including stopped ones |
+| 7 | `docker exec -it apache-test /bin/bash` | Enter inside the running Apache container |
+| 8 | `cat htdocs/index.html` | View the default webpage file (run inside the container) |
+| 9 | `docker logs apache-test` | View logs of a detached container |
+| 10 | `docker stop apache-test` | Gracefully stop the running container |
+| 11 | `docker start apache-test` | Restart a stopped container |
+| 12 | `docker rm apache-test` | Delete a stopped container |
+| 13 | `docker rm -f apache-test` | Force stop + delete in one command |
+
+
