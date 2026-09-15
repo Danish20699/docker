@@ -57,6 +57,10 @@ Command line: 'httpd -D FOREGROUND'
 
 Opened **http://localhost:8080** in the browser → Saw **"It works!"** ✅
 
+### 📸 Screenshot — Interactive Mode
+
+![Apache Interactive Mode with Logs](assets/52-apache-interactive-logs.png)
+
 ### Stopping
 
 Pressed `Ctrl + C` in the terminal → Apache stopped → Container exited.
@@ -89,6 +93,10 @@ CONTAINER ID   IMAGE   COMMAND              STATUS         PORTS                
 ```
 
 Opened **http://localhost:8080** → **"It works!"** ✅ (terminal stays free this time)
+
+### 📸 Screenshot — Detached Mode, Exec & index.html
+
+![Apache Detached Mode and Exec Inside](assets/52-apache-detached-exec-inside.png)
 
 ---
 
