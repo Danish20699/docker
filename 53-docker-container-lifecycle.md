@@ -198,3 +198,4 @@ Container is gone forever. No trace left.
 5. **`docker kill` only works on running containers** — you can't kill something that's already stopped.
 6. **`docker rm`** deletes a stopped container permanently. Use `docker rm -f` to force-stop and delete in one command.
 7. The full lifecycle: **Create → Start → (Pause/Unpause) → Stop → (Start again) → Kill → Remove**
+
