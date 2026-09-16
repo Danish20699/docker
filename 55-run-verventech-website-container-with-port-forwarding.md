@@ -127,3 +127,4 @@ docker rm -f verventech-web
 3. **`-p 8080:80`** forwards traffic from your browser to Apache inside the container.
 4. The image uses `httpd-foreground` as its command — same Apache server we used in previous labs.
 5. **Image naming format:** `<organization>/<image-name>` (e.g., `verventech/verventech-website`).
+
