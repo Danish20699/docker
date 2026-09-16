@@ -161,3 +161,4 @@ docker rm -f httpd-port-fwd
 3. **`0.0.0.0:8080->80/tcp`** in the PORTS column confirms port forwarding is active.
 4. **Only one container** can use a host port at a time. If it's taken, use a different port or remove the old container.
 5. The container's internal port (80) never changes — you only change the host port.
+
