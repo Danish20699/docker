@@ -154,3 +154,4 @@ Then run your new container again.
 4. **Changes are instant** — edit a file on your PC, refresh the browser, container serves the updated file.
 5. **Port conflicts** — only one container can use a port at a time. Use `docker rm -f` to free it.
 6. **`-p` (port) = DOOR** for network access, **`-v` (volume) = WINDOW** for file access.
+
