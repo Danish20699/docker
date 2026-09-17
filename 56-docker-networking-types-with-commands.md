@@ -70,6 +70,10 @@ e403d15b13b7   bridge    bridge    local
 f2dc28ba1db6   none      null      local
 ```
 
+### 📸 Screenshot — Default Network Drivers
+
+![Docker Network List](assets/56-docker-network-ls.png)
+
 ---
 
 ### 2. Inspect the Default Bridge Network
@@ -175,6 +179,10 @@ Exit the shell:
 exit
 ```
 
+### 📸 Screenshot — Custom Network Creation & Inter-Container Communication
+
+![Docker Custom Network and Containers](assets/56-docker-custom-network-containers.png)
+
 ---
 
 ### 7. Clean up
@@ -208,3 +216,4 @@ docker network rm my-custom-net
 2. **Host Driver**: Useful for maximum throughput where container network isolation is not required.
 3. **None Driver**: Ideal for isolated computation tasks or secure batch scripts.
 4. Always use custom bridge networks for production multi-container architectures.
+
