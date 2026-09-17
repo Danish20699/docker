@@ -1,3 +1,4 @@
+# Lab 49: Hello World Container — Initial Inspection
 # Lab 49: Docker Commands Output
 
 ## 📌 Objective
