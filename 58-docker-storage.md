@@ -170,3 +170,4 @@ docker volume ls
 2. **Volumes are Independent**: Volumes have a separate lifecycle from containers. Deleting a container does not delete the volume.
 3. **Multi-Container Sharing**: Multiple containers can mount the same volume simultaneously to read and write shared data.
 4. **Physical Location**: Docker handles file permissions and directory mapping under `/var/lib/docker/volumes/`, keeping host and container storage clean and separated.
+
