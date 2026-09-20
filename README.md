@@ -69,6 +69,7 @@ Docker replaces heavy hypervisor hardware virtualization with lightweight, kerne
 | **Lab 59** | [PostgreSQL Volume Persistence](59-demo-docker-volume-on-psql-container.md) | Named volume data retention across container deletion and recreation | ✅ Completed |
 | **Lab 60** | [Demo Bind Mount on Apache](60-demo-bind-mount-on-apache-container.md) | Host-to-container directory binding, real-time live hot-reloading, mount inspection | ✅ Completed |
 | **Lab 61** | [Run Portfolio Using Volume & Bind Mounts](61-run-portfolio-website-using-volume-bind-mounts-containers.md) | Multi-container LAPP stack with PostgreSQL volume persistence and web bind mount | ✅ Completed |
+| **Lab 62** | [Dockerfile Usage & Layer Architecture](62-Dockerfile-usage.md) | Dockerfile authoring (`FROM`, `ENV`, `RUN`, `COPY`, `EXPOSE`, `CMD`), image layers, build inspection | ✅ Completed |
 
 ---
 
@@ -101,6 +102,7 @@ docker/
 ├── 59-demo-docker-volume-on-psql-container.md
 ├── 60-demo-bind-mount-on-apache-container.md
 ├── 61-run-portfolio-website-using-volume-bind-mounts-containers.md
+├── 62-Dockerfile-usage.md
 └── README.md
 ```
 
