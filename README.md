@@ -67,6 +67,7 @@ Docker replaces heavy hypervisor hardware virtualization with lightweight, kerne
 | **Lab 57** | [Multi-Tier Portfolio Stack](57-run-portfolio-project-using-2-containers.md) | 2-tier application (PHP 8.2 + PostgreSQL 15), custom bridge network, DB driver compile | ✅ Completed |
 | **Lab 58** | [Docker Storage Architecture](58-docker-storage.md) | Storage drivers (overlay2), bind mounts vs named volumes, persistent data lifecycle | ✅ Completed |
 | **Lab 59** | [PostgreSQL Volume Persistence](59-demo-docker-volume-on-psql-container.md) | Named volume data retention across container deletion and recreation | ✅ Completed |
+| **Lab 60** | [Demo Bind Mount on Apache](60-demo-bind-mount-on-apache-container.md) | Host-to-container directory binding, real-time live hot-reloading, mount inspection | ✅ Completed |
 
 ---
 
@@ -80,7 +81,10 @@ docker/
 │   ├── lab57-web-browser-verify.png
 │   ├── lab58-volume-inspect.png
 │   ├── lab59-psql-table-created.png
-│   └── lab59-psql-data-persisted.png
+│   ├── lab59-psql-data-persisted.png
+│   ├── lab60-apache-bind-run.png
+│   ├── lab60-bind-mount-test-inspect.png
+│   └── lab60-browser-live-update.png
 ├── 48-install-docker.md
 ├── 49-docker-commands-output.md
 ├── 50-run-hello-world-container.md
@@ -93,6 +97,7 @@ docker/
 ├── 57-run-portfolio-project-using-2-containers.md
 ├── 58-docker-storage.md
 ├── 59-demo-docker-volume-on-psql-container.md
+├── 60-demo-bind-mount-on-apache-container.md
 └── README.md
 ```
 
