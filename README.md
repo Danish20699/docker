@@ -68,6 +68,7 @@ Docker replaces heavy hypervisor hardware virtualization with lightweight, kerne
 | **Lab 58** | [Docker Storage Architecture](58-docker-storage.md) | Storage drivers (overlay2), bind mounts vs named volumes, persistent data lifecycle | ✅ Completed |
 | **Lab 59** | [PostgreSQL Volume Persistence](59-demo-docker-volume-on-psql-container.md) | Named volume data retention across container deletion and recreation | ✅ Completed |
 | **Lab 60** | [Demo Bind Mount on Apache](60-demo-bind-mount-on-apache-container.md) | Host-to-container directory binding, real-time live hot-reloading, mount inspection | ✅ Completed |
+| **Lab 61** | [Run Portfolio Using Volume & Bind Mounts](61-run-portfolio-website-using-volume-bind-mounts-containers.md) | Multi-container LAPP stack with PostgreSQL volume persistence and web bind mount | ✅ Completed |
 
 ---
 
@@ -84,7 +85,8 @@ docker/
 │   ├── lab59-psql-data-persisted.png
 │   ├── lab60-apache-bind-run.png
 │   ├── lab60-bind-mount-test-inspect.png
-│   └── lab60-browser-live-update.png
+│   ├── lab60-browser-live-update.png
+│   └── lab61-portfolio-website-browser.png
 ├── 48-install-docker.md
 ├── 49-docker-commands-output.md
 ├── 50-run-hello-world-container.md
@@ -98,6 +100,7 @@ docker/
 ├── 58-docker-storage.md
 ├── 59-demo-docker-volume-on-psql-container.md
 ├── 60-demo-bind-mount-on-apache-container.md
+├── 61-run-portfolio-website-using-volume-bind-mounts-containers.md
 └── README.md
 ```
 
