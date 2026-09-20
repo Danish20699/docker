@@ -70,6 +70,7 @@ Docker replaces heavy hypervisor hardware virtualization with lightweight, kerne
 | **Lab 60** | [Demo Bind Mount on Apache](60-demo-bind-mount-on-apache-container.md) | Host-to-container directory binding, real-time live hot-reloading, mount inspection | ✅ Completed |
 | **Lab 61** | [Run Portfolio Using Volume & Bind Mounts](61-run-portfolio-website-using-volume-bind-mounts-containers.md) | Multi-container LAPP stack with PostgreSQL volume persistence and web bind mount | ✅ Completed |
 | **Lab 62** | [Dockerfile Usage & Layer Architecture](62-Dockerfile-usage.md) | Dockerfile authoring (`FROM`, `ENV`, `RUN`, `COPY`, `EXPOSE`, `CMD`), image layers, build inspection | ✅ Completed |
+| **Lab 63** | [Run Portfolio Using Custom Portfolio Image](63-run-portfolio-using-custom-portfolio-image.md) | Custom production Docker image with baked-in PostgreSQL drivers & source code | ✅ Completed |
 
 ---
 
@@ -87,7 +88,10 @@ docker/
 │   ├── lab60-apache-bind-run.png
 │   ├── lab60-bind-mount-test-inspect.png
 │   ├── lab60-browser-live-update.png
-│   └── lab61-portfolio-website-browser.png
+│   ├── lab61-portfolio-website-browser.png
+│   ├── lab63-docker-build-terminal.png
+│   ├── lab63-curl-verification.png
+│   └── lab63-custom-portfolio-browser.png
 ├── 48-install-docker.md
 ├── 49-docker-commands-output.md
 ├── 50-run-hello-world-container.md
@@ -103,6 +107,7 @@ docker/
 ├── 60-demo-bind-mount-on-apache-container.md
 ├── 61-run-portfolio-website-using-volume-bind-mounts-containers.md
 ├── 62-Dockerfile-usage.md
+├── 63-run-portfolio-using-custom-portfolio-image.md
 └── README.md
 ```
 

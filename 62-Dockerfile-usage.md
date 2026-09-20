@@ -204,3 +204,4 @@ curl -s http://localhost:8082 | grep -i "Danish Nazir"
 - **Built Image:** `my-first-image:1.0`
 - **Active Container:** `lab62-test` (Port `8082:80`)
 - **Verification Status:** ✅ Complete (Dockerfile created, image built, layers inspected, container verified)
+
