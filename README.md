@@ -71,6 +71,7 @@ Docker replaces heavy hypervisor hardware virtualization with lightweight, kerne
 | **Lab 61** | [Run Portfolio Using Volume & Bind Mounts](61-run-portfolio-website-using-volume-bind-mounts-containers.md) | Multi-container LAPP stack with PostgreSQL volume persistence and web bind mount | ✅ Completed |
 | **Lab 62** | [Dockerfile Usage & Layer Architecture](62-Dockerfile-usage.md) | Dockerfile authoring (`FROM`, `ENV`, `RUN`, `COPY`, `EXPOSE`, `CMD`), image layers, build inspection | ✅ Completed |
 | **Lab 63** | [Run Portfolio Using Custom Portfolio Image](63-run-portfolio-using-custom-portfolio-image.md) | Custom production Docker image with baked-in PostgreSQL drivers & source code | ✅ Completed |
+| **Lab 64** | [Docker Compose Introduction](64-docker-compose-intro.md) | Multi-container orchestration, declarative stack, healthcheck ordering, persistent storage | ✅ Completed |
 
 ---
 
@@ -91,7 +92,8 @@ docker/
 │   ├── lab61-portfolio-website-browser.png
 │   ├── lab63-docker-build-terminal.png
 │   ├── lab63-curl-verification.png
-│   └── lab63-custom-portfolio-browser.png
+│   ├── lab63-custom-portfolio-browser.png
+│   └── lab64-portfolio-compose-browser.png
 ├── 48-install-docker.md
 ├── 49-docker-commands-output.md
 ├── 50-run-hello-world-container.md
@@ -108,6 +110,7 @@ docker/
 ├── 61-run-portfolio-website-using-volume-bind-mounts-containers.md
 ├── 62-Dockerfile-usage.md
 ├── 63-run-portfolio-using-custom-portfolio-image.md
+├── 64-docker-compose-intro.md
 └── README.md
 ```
 

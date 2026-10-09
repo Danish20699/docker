@@ -1,4 +1,4 @@
-# 62 - Dockerfile Usage & Layer Architecture
+https://kashmirlife.net/wp-content/uploads/2023/08/Doodpathri-1-1068x577.jpg# 62 - Dockerfile Usage & Layer Architecture
 
 ![Docker](https://img.shields.io/badge/Docker-26.0%2B-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Alpine](https://img.shields.io/badge/Base-Alpine%203.19-0D597F?style=for-the-badge&logo=alpinedinux&logoColor=white)
